@@ -3,8 +3,8 @@ from main import Node, Stack
 
 class TestNode(TestCase):
     n1 = Node(5)
-    assert n1 == 5
-    pass
+    def test_data(self):
+        self.assertEqual(self.n1.data, 5)
 
 
 class TestStack(TestCase):
