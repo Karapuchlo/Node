@@ -10,5 +10,5 @@ class TestNode(TestCase):
 class TestStack(TestCase):
     stack = Stack()
     def test_push(self):
-        stack.test_push('data2') == 'data3'
+        stack.push('data2') == 'data3'
 
