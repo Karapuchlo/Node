@@ -8,7 +8,9 @@ class TestNode(TestCase):
 
 
 class TestStack(TestCase):
-    stack = Stack()
+
     def test_push(self):
-        stack.push('data2') == 'data3'
+        stack = Stack()
+        self.assertEqual(stack.push('data2'), None)
+
 
